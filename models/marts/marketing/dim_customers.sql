@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='view'
+    )
+}}
+
 WITH customers AS (
     -- SELECT 
     --     id AS customer_id,
